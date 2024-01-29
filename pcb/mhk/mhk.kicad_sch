@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a3ee6841-9818-4847-b6af-a4e73b07d3de)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 190.5 91.44) (size 31.75 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2fb64497-5336-43f6-a515-dd4023b77c3c)
+    (property "Sheetname" "Sensors" (at 190.5 90.7284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "master.kicad_sch" (at 190.5 131.3946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mhk"
+        (path "/a3ee6841-9818-4847-b6af-a4e73b07d3de" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 223.52 26.67) (size 29.21 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ac5e52d3-d064-4f2f-9dd5-4ba274436213)
+    (property "Sheetname" "LEDS" (at 223.52 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "leds.kicad_sch" (at 223.52 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mhk"
+        (path "/a3ee6841-9818-4847-b6af-a4e73b07d3de" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 182.88 29.21) (size 27.94 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid be500fda-276b-4f45-922a-71aa6b3b4080)
+    (property "Sheetname" "Motors" (at 182.88 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "motors.kicad_sch" (at 182.88 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "mhk"
+        (path "/a3ee6841-9818-4847-b6af-a4e73b07d3de" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,49 @@
+# For more options and information see
+ 2 # http://rptl.io/configtxt
+ 3 # Some settings may impact device functionality. See link above for details
+ 4
+ 5 # Uncomment some or all of these to enable the optional hardware interfaces
+ 6 #dtparam=i2c_arm=on
+ 7 dtparam=i2s=on
+ 8 #dtparam=spi=on
+ 9
+10 # Enable audio (loads snd_bcm2835)
+11 #dtparam=audio=on
+12 dtoverlay=iqaudio-dacplus
+13
+14 # Additional overlays and parameters are documented
+15 # /boot/firmware/overlays/README
+16
+17 # Automatically load overlays for detected cameras
+18 camera_auto_detect=1
+19
+20 # Automatically load overlays for detected DSI displays
+21 display_auto_detect=1
+22
+23 # Automatically load initramfs files, if found
+24 auto_initramfs=1
+25
+26 # Enable DRM VC4 V3D driver
+27 dtoverlay=vc4-kms-v3d,noaudio
+28 max_framebuffers=2
+29
+30 # Don't have the firmware create an initial video= setting in cmdline.txt.
+31 # Use the kernel's default instead.
+32 disable_fw_kms_setup=1
+33
+34 # Run in 64-bit mode
+35 arm_64bit=1
+36
+37 # Disable compensation for displays with overscan
+38 disable_overscan=1
+39
+40 # Run as fast as firmware / board allows
+41 arm_boost=1
+42
+43 [cm4]
+44 # Enable host mode on the 2711 built-in XHCI USB controller.
+45 # This line should be removed if the legacy DWC2 controller is required
+46 # (e.g. for USB device mode) or if USB support is not required.
+47 otg_mode=1
+48
+49 [all]
