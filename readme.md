@@ -111,14 +111,14 @@ You can found all details and print parts in the *3d/* folder.
 components :
 - Motors Shield:
   - dagu WT751 (https://www.gotronic.fr/art-motoreducteur-wt751-17751.htm), motor 6Vcc
-  - [drv8838](!https://www.pololu.com/product/2990), driver motor, 0→11V
-  - [optical endstop](!https://www.amazon.fr/GeeekPi-Optical-Endstop-Photoelectric-imprimante/dp/B086P7XHJ2/ref=sr_1_7?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=303ZPGFLA8E0W&keywords=optical+switch&qid=1706533943&sprefix=optical+switch%2Caps%2C99&sr=8-7)
-  - [Rapsberry Pico Wifi](!https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
+  - drv8838 (https://www.pololu.com/product/2990), driver motor, 0→11V
+  - optical endstop (https://www.amazon.fr/GeeekPi-Optical-Endstop-Photoelectric-imprimante/dp/B086P7XHJ2/ref=sr_1_7?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=303ZPGFLA8E0W&keywords=optical+switch&qid=1706533943&sprefix=optical+switch%2Caps%2C99&sr=8-7)
+  - Rapsberry Pico Wifi (https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
 
 - Leds Shield:
   - WS2812 led strip, 5V
-  - [Rapsberry Pico Wifi](!https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
+  - Rapsberry Pico Wifi (https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
 
 - Sensors Shield:
-  - [HC-SR04](!https://www.gotronic.fr/art-module-de-detection-us-hc-sr04-20912.htm), ultrasonic sensors
-  - [Rapsberry Pico Wifi](!https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
+  - HC-SR04 (https://www.gotronic.fr/art-module-de-detection-us-hc-sr04-20912.htm), ultrasonic sensors
+  - Rapsberry Pico Wifi (https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
