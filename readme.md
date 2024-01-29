@@ -20,7 +20,7 @@
 
 #### DAC+
 
-ref : https://www.raspberrypi.com/products/dac-plus/
+[dac+](https://www.raspberrypi.com/products/dac-plus/)
 
 * Install \
   Plug the shield on the RaspberryPi
