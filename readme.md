@@ -109,6 +109,13 @@ You can found all details and print parts in the *3d/* folder.
 **All shematics and gerber available in *pcb/mhk* folder in KiCad project format**
 
 components :
+- Global:
+  - Raspberry Pi
+  - [DAC+](https://www.raspberrypi.com/products/dac-plus/)
+  - [router](https://www.gl-inet.com/products/gl-b1300/), setup for zeroTier vpn support
+  - [PowerSupply +5V](https://www.meanwell.fr/ac-dc-ultra-slim-din-rail-power-supply-input-range-hdr--30--5), for the Raspberry Pi and the shields
+  - [PowerSupply +12V](https://www.meanwell.fr/ac-dc-ultra-slim-din-rail-power-supply-input-range-hdr--30--12), for the router
+
 - Motors Shield:
   - [dagu WT751](https://www.gotronic.fr/art-motoreducteur-wt751-17751.htm), motor 6Vcc
   - [drv8838](https://www.pololu.com/product/2990), driver motor, 0→11V
