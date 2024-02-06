@@ -29,7 +29,7 @@
 
 ### Interaction & Space Mapping Logic
 
-There are 6 distance sensors on the sculpture. They are labelled S_00 to S_05. S_01 and S_04 are at the entry and exit points of the display location called the Breakout Room. To trigger sound and light activity, we partitioned the interaction zones into 6 zones labelled A, B, C, D, E and F.
+There are 6 distance sensors on the sculpture. They are labelled S_00 to S_05. S_02 and S_05 are at the entry and exit points of the display location called the Breakout Room. To trigger sound and light activity, we partitioned the interaction zones into 6 zones labelled A, B, C, D, E and F.
 
 **Sounds** are activated by presence within zones. All zones have an inner and an outer zone and these measurements are not the same for each zone. The rationale is to have something a little more organic in shape. For example, Zone D has an inner zone that goes up to 500mm, and its outer zone extends up to 2000mm whereas Zone F has an inner zone of 400mm and the outer extends only up to 1100mm. Anything outside of 1100mm will register a value on the sensor but it will not trigger a sound. We also programmed sounds to trigger when 2 zones register a value at the same time, meaning the sensors in these zones have to sense two separate persons in order to activate a sound. Certain sounds will also only trigger after a delay value of say 29656ms in the outer zone of Zone D. This gives some nuance and variation to the sounds and does not create cacophony for every interaction that happens each time a sensor value is registered. These 2-zone combinations are also varied between inner and outer zones. For each specific zone within zones A-F, there are also sometimes 2 or 3 files that are randomised to create more diverse combinations of sounds.
 
@@ -69,15 +69,15 @@ components :
   - [dagu WT751](https://www.gotronic.fr/art-motoreducteur-wt751-17751.htm), motor 6Vcc
   - [drv8838](https://www.pololu.com/product/2990), driver motor, 0→11V
   - [optical endstop](https://www.amazon.fr/GeeekPi-Optical-Endstop-Photoelectric-imprimante/dp/B086P7XHJ2/ref=sr_1_7?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=303ZPGFLA8E0W&keywords=optical+switch&qid=1706533943&sprefix=optical+switch%2Caps%2C99&sr=8-7)
-  - [Rapsberry Pico Wifi](https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
+  - [Raspberry Pico Wifi](https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
 
 - Leds Shield:
   - WS2812 led strip, 5V
-  - [Rapsberry Pico Wifi](https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
+  - [Raspberry Pico Wifi](https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
 
 - Sensors Shield:
   - [HC-SR04](https://www.gotronic.fr/art-module-de-detection-us-hc-sr04-20912.htm), ultrasonic sensors
-  - [Rapsberry Pico Wifi](https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
+  - [Raspberry Pico Wifi](https://www.raspberrypi.com/products/raspberry-pi-pico/), micropython
 
 
 ![pcb](img/pcbs.jpg)
