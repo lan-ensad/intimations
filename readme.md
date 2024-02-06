@@ -50,12 +50,12 @@ Principles assembly
 ![full](img/_3d/01.png)
 ![combine](img/_3d/_combine.jpg)
 
-You can found all details and print parts in the *3d/* folder.
+You can find all details and print parts in the *3d/* folder.
 
 ### electronics
 
 **All firmeware available in *firmeware/< shield >* folder**\
-**All shematics and gerber available in *pcb/mhk* folder in KiCad project format**
+**All schematics and gerber available in *pcb/mhk* folder in KiCad project format**
 
 components :
 - Global:
@@ -81,7 +81,7 @@ components :
 
 
 ![pcb](img/pcbs.jpg)
-**Every details available in *pcb/mhk* KiCad project**
+**All details available in *pcb/mhk* KiCad project**
 
 
 ## Installation
@@ -104,7 +104,7 @@ l.11 > comment `#dtparam=audio=on`\
 l.12 > enable `dtoverlay=iqaudio-dac`\
 l.27 > verify `dtoverlay=vc4-kms-v3d,noaudi` > (cut hdmi audio)
 
-**All config file is in *dacplus/config.txt* folder**
+**All config files are in *dacplus/config.txt* folder**
 
 #### NodeRed
 
