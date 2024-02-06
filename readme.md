@@ -117,7 +117,7 @@ l.27 > verify `dtoverlay=vc4-kms-v3d,noaudi` > (cut hdmi audio)
 
 #### Pure Data
 
-* Install \
+* Install
 
 ```
 sudo apt update && sudo apt upgrade -y
