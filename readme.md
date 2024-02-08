@@ -83,7 +83,6 @@ components :
 ![pcb](img/pcbs.jpg)
 **All details available in *pcb/mhk* KiCad project**
 
-
 ## Installation
 
 ### Raspberry
