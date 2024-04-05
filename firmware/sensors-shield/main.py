@@ -24,7 +24,7 @@ def publishTimer(timer):
     mqttClient.publish(pubTopic, str(pubData).encode())
     print(f"Publishing topic :<{pubTopic}> | data :<{pubData}>")
 sendTimer = machine.Timer()
-sendTimerRange = 2000
+sendTimerRange = 5000
 
 
 # ### SENSORS ###
