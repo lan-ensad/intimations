@@ -155,3 +155,16 @@ allow_anonymous true
 * publish command line \
   `mosquitto_pub -d -t <topic> -m "<Message>"` (anonymous)\
   `mosquitto_pub -d -t <topic> -m "<Message>" -u <user> -P <pass>` (logged)
+
+  #### WIFI
+
+`sudo nano /etc/wpa_spplicant/wpa_supplicant.conf`
+
+```
+network{
+  scan_ssid=1
+  ssid="<SSID>"
+  psk="<PASSWORD>"
+  key_mgmt=WPA-PSK
+}
+```
